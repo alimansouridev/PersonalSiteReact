@@ -1,16 +1,11 @@
 import React from "react";
 
-function Nav() {
+export const Nav = () => {
   return (
-    <nav className="max-w-screen-xl flex-wrap items-center flex">
-      <h2 className="text-3xl font-bold">Ali Mansouri Dev</h2>
-      <div className="space-x-4 flex-1 flex justify-end ml-auto">
-        <h1>About me</h1>
-        <h1>Contact</h1>
-        <h1>Projects</h1>
-      </div>
-    </nav>
+    <header className="sticky top-0 z-[1] mx-auto  flex w-full max-w-7xl flex-wrap items-center justify-between border-b border-gray-100 bg-background p-[2em] font-sans font-bold uppercase text-text-primary backdrop-blur-[100px] dark:border-gray-800 dark:bg-d-background dark:text-d-text-primary">
+      <h1>Ali Mansouri</h1>
+    </header>
   );
-}
+};
 
 export default Nav;
