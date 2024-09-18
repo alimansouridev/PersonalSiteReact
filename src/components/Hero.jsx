@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "../assets/AliBike.png";
+import Image from "../assets/AliBike.webp";
 
 export const Hero = () => {
   return (
