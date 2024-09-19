@@ -1,15 +1,15 @@
 import React from "react";
 
+// logos
+import logo from "../assets/logoAM.webp";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { IoMailOutline } from "react-icons/io5";
 
-import logo from "../assets/logo.png";
-
 export const Nav = () => {
   return (
     <nav className="flex items-center justify-between py-6">
-      <div className="flex flex-shrink-0 items-center">
+      <div className="flex flex-shrink-0 items-center size-12">
         <a href="">
           <img src={logo} alt="" />
         </a>
