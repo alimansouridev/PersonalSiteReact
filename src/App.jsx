@@ -2,6 +2,7 @@ import React from "react";
 import Nav from "./components/Nav";
 import Hero from "./components/Hero";
 import Technologies from "./components/technologies";
+import Projects from "./components/Projects";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Nav />
         <Hero />
         <Technologies />
+        <Projects />
       </div>
     </div>
   );
