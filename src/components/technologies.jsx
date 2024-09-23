@@ -2,7 +2,6 @@ import React from "react";
 
 // Brand names
 import { RiReactjsLine } from "react-icons/ri";
-import { TbBrandFigma } from "react-icons/tb";
 import { TbBrandTailwind } from "react-icons/tb";
 import { TbBrandPython } from "react-icons/tb";
 import { TbBrandNodejs } from "react-icons/tb";

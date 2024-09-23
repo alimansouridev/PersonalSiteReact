@@ -10,7 +10,7 @@ export const Nav = () => {
   return (
     <nav className="flex items-center justify-between py-6">
       <div className="flex flex-shrink-0 items-center size-12">
-        <a href="">
+        <a>
           <img src={logo} alt="" />
         </a>
       </div>
@@ -23,14 +23,14 @@ export const Nav = () => {
           <FaLinkedin />
         </a>
         <a
-          href="https://www.linkedin.com/in/ali-mansouri-540609314"
+          href="https://github.com/alimansouridev"
           target="_blank"
           rel="noopener norefererrer"
           aria-label="Github">
           <FaGithub />
         </a>
         <a
-          href="https://www.linkedin.com/in/ali-mansouri-540609314"
+          href="mailto:alimansouri.dev@gmail.com"
           target="_blank"
           rel="noopener norefererrer"
           aria-label="LinkedIn">
