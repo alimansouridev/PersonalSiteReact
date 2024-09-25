@@ -62,7 +62,7 @@ export const Hero = () => {
               target="_blank"
               rel="noopener norefererrer"
               download
-              className="bg-white rounded-full p-4 text-sm text-stone-800 mb-10">
+              className="bg-white rounded-full p-4 text-sm text-stone-800 mb-10  hover:bg-black hover:text-white">
               Download Resume
             </motion.a>
           </motion.div>
