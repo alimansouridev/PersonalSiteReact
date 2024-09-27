@@ -48,7 +48,7 @@ export const Hero = () => {
             </motion.h2>
             <motion.span
               variants={childrenVariants}
-              className=" bg-gradient-to-r from-stone-300 to-stone-600 bg-clip-text text-3xl tracking-tight text-transparent">
+              className=" text-stone-400 bg-clip-text text-3xl tracking-tight ">
               Frontend Web Developper
             </motion.span>
             <motion.p
