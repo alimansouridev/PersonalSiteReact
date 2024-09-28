@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "../assets/AliBike.webp";
+import resume from "../assets/resumefolder/resume.pdf";
 import { motion } from "framer-motion";
 
 // framer motion
@@ -49,16 +50,17 @@ export const Hero = () => {
             <motion.span
               variants={childrenVariants}
               className=" text-stone-400 bg-clip-text text-3xl tracking-tight ">
-              Frontend Web Developper
+              Full Stack Developper
             </motion.span>
             <motion.p
               variants={childrenVariants}
               className=" my-2 max-w-lg py-6 text-xl leading-relaxed tracking-tighter">
-              Tech Savvy boy
+              Hi! I’m Ali, I’m a teamplayer, I’m reliable, I’m responsible and
+              approachable.
             </motion.p>
             <motion.a
               variants={childrenVariants}
-              href=""
+              href={resume}
               target="_blank"
               rel="noopener norefererrer"
               download
